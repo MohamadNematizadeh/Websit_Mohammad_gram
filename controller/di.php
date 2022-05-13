@@ -1,5 +1,5 @@
 <?php
-include "../controller/database.php";
+include "controller/database.php";
 
 
 $password = $_POST["password"];

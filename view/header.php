@@ -4,13 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>facebook</title>
-    <link rel="icon" type="image/png" href="view/img\Facebook.png">
-    <link type="text/css" rel="stylesheet" href="view/css/bootstrap.rtl.css">
-    <link rel="stylesheet" href="dist/mds.bs.datetimepicker.style.css">
-    <link href="view/css/style.css" type="text/css" rel="stylesheet">
-    <link href="view/css/all.css" type="text/css" rel="stylesheet">
-
-    <i class="fa-solid fa-house-chimney"></i> 
+    <link rel="icon" type="image/png" href="img\Facebook.png">
+    <link rel="stylesheet" href="view/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="view/dist/mds.bs.datetimepicker.style.css">
+    <link rel="stylesheet" href="view/css/all.css">
+    <link rel="stylesheet" href="view/css/style.css">
 
 </head>
 <body >

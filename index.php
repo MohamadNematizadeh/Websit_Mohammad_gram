@@ -1,22 +1,45 @@
 <?php
+session_start();
 $request = $_SERVER["REQUEST_URI"];
 
 switch ($request)
 {
-    case("/mohammadgram"):
-    case("/mohammadgram/"):
-    case("/mohammadgram/index.php"):
-        require __DIR__ . "/view/personal profile page.php";
+    case("/monagram"):
+    case("/monagram/"):
+    case("/monagram/index"):
+        require __DIR__ . "/view/index.php";
         break;
-        case("/mohammadgram/hom.php"):
-            require __DIR__ . "/view/hom.php";
+
+        case("/monagram/home"):
+            require __DIR__ . "/view/home.php";
             break;
-            case("/mohammadgram/profilepage.php"):
-                require __DIR__ . "/view/profilepage.php";
+
+            case("/monagram/register"):
+                require __DIR__ . "/controller/register.php";
                 break;
 
-
-     
-
+                case("/monagram/di"):
+                    require __DIR__ . "/controller/di.php";
+                    break;
+                    
+                case("/monagram/profilepage"):
+                    require __DIR__ . "/view/profilepage.php";
+                    break;
+                        case("/monagram/login"):
+                            require __DIR__ . "/view/login.php";
+                            break;
+                            case("/monagram/logout"):
+                                require __DIR__ . "/view/logout.php";
+                                break;
+                                case("/monagram/post"):
+                                    require __DIR__ . "/controller/post.php";
+                                    break;
+                                    case("/monagram/add_post"):
+                                        require __DIR__ . "/controller/add_post_proccess.php";
+                                        break;
+                default:
+                require __DIR__ . "/view/404.php";
+                break;
+                
 }
 ?>
