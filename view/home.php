@@ -86,13 +86,18 @@ include "navbar.php";
                           <button type="submit" class="btn btn-primary mt-3"> <i class="far fa-comment"></i> ثبت پیام</button>
                           </div>
                           </div>
-                          <?php foreach ($comments as $comment) : ?>
+                          <?php Var_dunmp($comments=$db->query("SELECT * FROM posts LEFT JOIN comments ON Posts.id= comments.post_id WHERE post.id=$id "));
+ foreach ($comments as $comment): ?>
+
                             <ul class="list-group">
   <li class="list-group-item d-flex justify-content-between align-items-center mt-2">
   <p><?php echo $comment["text"]; ?></p>  
 
   </li>                        
                           </div>
+
+
+
                     <?php endforeach; ?>
 
                     </div>
