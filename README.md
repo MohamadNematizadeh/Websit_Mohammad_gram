@@ -2,7 +2,7 @@
 
 ## home.php
 
-![screen shot](/view/img/223.png)
+![screen shot](view/img/1.png)
 ![screen shot](/view/img/234.png)
 ### index.php
 
