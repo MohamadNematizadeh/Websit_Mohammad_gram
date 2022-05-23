@@ -2,10 +2,11 @@
 
 ## home.php
 
-![screen shot](/view/img/ee.png)
-![screen shot](/view/img/e.png)
-## personal profile page.php
+![screen shot](/view/img/1.png)
+![screen shot](/view/img/2.png)
+### index.php
 
-![screen shot](/view/img/profile.png)
-![screen shot](/view/img/profile2.png)
+![screen shot](/view/img/3.png)
+![screen shot](/view/img/4.png)
+
 
